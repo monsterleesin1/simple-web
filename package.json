@@ -1,0 +1,18 @@
+{
+  "name": "front-end",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": "git@github.com:thienhophu/new-front-end-practice.git",
+  "author": "Thien Ho <thien.ho@manifera.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js localhost 3000"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-static": "^0.7.11"
+  }
+}
